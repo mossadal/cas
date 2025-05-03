@@ -1,6 +1,6 @@
 {
   "name": "subfission/cas",
-  "description": "Adds CAS support to Laravel 5.x - 11.x",
+  "description": "Adds CAS support to Laravel 5.x - 12.x",
   "keywords": [
     "CAS",
     "phpCAS",
@@ -34,7 +34,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^8.0|^9.0|^10.0",
-    "pestphp/pest": "^1.21"
+    "pestphp/pest": "^1.21",
+    "orchestra/testbench": "^6.25"
   },
   "autoload": {
     "psr-4": {
@@ -49,7 +50,7 @@
       "Subfission\\Cas\\Tests\\": "tests"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [
@@ -60,7 +61,4 @@
       }
     }
   },
-  "require-dev": {
-    "orchestra/testbench": "^6.25"
-  }
 }
